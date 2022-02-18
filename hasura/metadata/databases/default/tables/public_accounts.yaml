@@ -1,0 +1,32 @@
+table:
+  name: accounts
+  schema: public
+array_relationships:
+- name: bookings
+  using:
+    foreign_key_constraint_on:
+      column: accountId
+      table:
+        name: bookings
+        schema: public
+- name: children
+  using:
+    foreign_key_constraint_on:
+      column: accountId
+      table:
+        name: children
+        schema: public
+- name: memberships
+  using:
+    foreign_key_constraint_on:
+      column: accountId
+      table:
+        name: memberships
+        schema: public
+- name: parents
+  using:
+    foreign_key_constraint_on:
+      column: accountId
+      table:
+        name: parents
+        schema: public

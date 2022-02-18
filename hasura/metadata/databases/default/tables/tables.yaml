@@ -1,0 +1,6 @@
+- "!include public_accounts.yaml"
+- "!include public_bookings.yaml"
+- "!include public_children.yaml"
+- "!include public_facilities.yaml"
+- "!include public_memberships.yaml"
+- "!include public_parents.yaml"

@@ -1,0 +1,16 @@
+table:
+  name: bookings
+  schema: public
+object_relationships:
+- name: account
+  using:
+    foreign_key_constraint_on: accountId
+- name: child
+  using:
+    foreign_key_constraint_on: childId
+- name: membership
+  using:
+    foreign_key_constraint_on: membershipId
+- name: parent
+  using:
+    foreign_key_constraint_on: parentId
