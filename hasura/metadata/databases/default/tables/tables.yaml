@@ -4,3 +4,4 @@
 - "!include public_facilities.yaml"
 - "!include public_memberships.yaml"
 - "!include public_parents.yaml"
+- "!include public_rooms.yaml"
