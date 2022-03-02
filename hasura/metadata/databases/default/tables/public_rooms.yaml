@@ -1,0 +1,7 @@
+table:
+  name: rooms
+  schema: public
+object_relationships:
+- name: facility
+  using:
+    foreign_key_constraint_on: facility_id
