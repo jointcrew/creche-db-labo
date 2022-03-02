@@ -9,3 +9,10 @@ array_relationships:
       table:
         name: memberships
         schema: public
+- name: rooms
+  using:
+    foreign_key_constraint_on:
+      column: facility_id
+      table:
+        name: rooms
+        schema: public
