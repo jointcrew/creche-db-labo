@@ -1,0 +1,7 @@
+table:
+  name: facility_accounts
+  schema: public
+object_relationships:
+- name: facility
+  using:
+    foreign_key_constraint_on: facilityId
