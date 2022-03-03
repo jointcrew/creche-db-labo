@@ -1,10 +1,17 @@
 # creche db labo
 
-## Setup
+## Setup Hasura
 
 ```shell
 git clone git@github.com:jointcrew/creche-db-labo.git
 make build
+```
+
+## Setup Web
+
+```shell
+cd web
+yarn
 ```
 
 ## Hasura Cloud
