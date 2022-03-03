@@ -20,6 +20,13 @@ array_relationships:
       table:
         name: children
         schema: public
+- name: mail_histories
+  using:
+    foreign_key_constraint_on:
+      column: parentId
+      table:
+        name: mail_histories
+        schema: public
 - name: memberships
   using:
     foreign_key_constraint_on:

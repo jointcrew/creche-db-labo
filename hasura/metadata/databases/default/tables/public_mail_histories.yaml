@@ -1,0 +1,13 @@
+table:
+  name: mail_histories
+  schema: public
+object_relationships:
+- name: account
+  using:
+    foreign_key_constraint_on: accountId
+- name: facility
+  using:
+    foreign_key_constraint_on: facilityId
+- name: parent
+  using:
+    foreign_key_constraint_on: parentId

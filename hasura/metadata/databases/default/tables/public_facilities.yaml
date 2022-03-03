@@ -2,6 +2,13 @@ table:
   name: facilities
   schema: public
 array_relationships:
+- name: mail_histories
+  using:
+    foreign_key_constraint_on:
+      column: facilityId
+      table:
+        name: mail_histories
+        schema: public
 - name: memberships
   using:
     foreign_key_constraint_on:
