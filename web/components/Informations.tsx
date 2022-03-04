@@ -6,7 +6,7 @@ const GET_INFORMATION_QUERY = gql`
       id
       title
       content
-      published_at
+      publishedAt
     }
   }
 `;
@@ -16,7 +16,7 @@ type GetInformationsResponse = {
     id: number;
     title: string;
     content: string;
-    published_at: string;
+    publishedAt: string;
   }[];
 };
 
@@ -39,7 +39,7 @@ export const Informations = () => {
         {data &&
           data.informations.map((info) => (
             <li key={info.id}>
-              {info.title} / {info.published_at}
+              {info.title} / {info.publishedAt}
             </li>
           ))}
       </ul>
