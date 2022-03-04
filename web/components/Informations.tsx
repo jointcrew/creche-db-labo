@@ -37,7 +37,11 @@ export const Informations = () => {
     <div>
       <ul>
         {data &&
-          data.informations.map((info) => <li key={info.id}>{info.title}</li>)}
+          data.informations.map((info) => (
+            <li key={info.id}>
+              {info.title} / {info.published_at}
+            </li>
+          ))}
       </ul>
     </div>
   );
