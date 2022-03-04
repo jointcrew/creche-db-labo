@@ -6,6 +6,9 @@ build:
 up:
 	docker-compose up -d
 
+start:
+	yarn --cwd ./web dev
+
 down:
 	docker-compose down
 

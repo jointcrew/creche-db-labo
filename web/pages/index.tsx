@@ -1,13 +1,13 @@
-import type { NextPage } from 'next'
+import type { NextPage } from "next";
+import { Informations } from "../components/Informations";
 
 const Home: NextPage = () => {
-  return (<div>
-    <ul>
-      <li>Hello Next.js</li>
-      <li>test</li>
-      <li>リリースしたよ</li>
-    </ul>
-  </div>)
-}
+  return (
+    <div style={{ padding: 20 }}>
+      <h2>Home</h2>
+      <Informations />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
