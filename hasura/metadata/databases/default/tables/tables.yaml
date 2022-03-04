@@ -2,6 +2,7 @@
 - "!include public_bookings.yaml"
 - "!include public_children.yaml"
 - "!include public_facilities.yaml"
+- "!include public_facility_accounts.yaml"
 - "!include public_informations.yaml"
 - "!include public_mail_histories.yaml"
 - "!include public_memberships.yaml"
