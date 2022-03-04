@@ -5,6 +5,7 @@ const Home: NextPage = () => {
     <ul>
       <li>Hello Next.js</li>
       <li>test</li>
+      <li>リリースしたよ</li>
     </ul>
   </div>)
 }
